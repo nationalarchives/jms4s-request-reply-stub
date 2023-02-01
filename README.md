@@ -9,3 +9,6 @@ docker compose up -d
 ..from the project root directory.
 
 To start the EchoServer use `sbt run`.
+
+## Important Note
+Until further notice you will need to `sbt publishLocal` the JMS4S library from the `combined-features` branch of this repository: https://github.com/rwalpole/jms4s
