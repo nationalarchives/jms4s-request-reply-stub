@@ -16,8 +16,8 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "cats-effect-kernel" % "3.4.4",
       "org.typelevel" %% "log4cats-core" % "2.5.0",
       "org.typelevel" %% "log4cats-slf4j" % "2.5.0",
-      "dev.fpinbo" %% "jms4s-active-mq-artemis" % "0.0.1-350e4fd-SNAPSHOT",
-      "dev.fpinbo" %% "jms4s-simple-queue-service" % "0.0.1-350e4fd-SNAPSHOT",
+      "dev.fpinbo" %% "jms4s-active-mq-artemis" % "0.0.1-a9c282c",
+      "dev.fpinbo" %% "jms4s-simple-queue-service" % "0.0.1-a9c282c",
       "org.slf4j" % "slf4j-simple" % "2.0.6" % Runtime
     ),
     headerLicense := Some(HeaderLicense.MIT("2023", "The National Archives")),
